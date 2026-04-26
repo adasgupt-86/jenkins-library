@@ -3,7 +3,7 @@ def checkout() {
 }
 def build() {
     echo "Hello, This is Abhishek from devops team"
-    sh 'docker build -t nginx-jenkins .'
+    docker build -t nginx-jenkins .
 }
 def deploy() {
     echo "Hello, This is ${name} from devops team"
